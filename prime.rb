@@ -27,3 +27,5 @@ def prime?(num)
     end
   end
 end
+
+prime?(37)
