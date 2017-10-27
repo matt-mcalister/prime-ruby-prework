@@ -2,11 +2,11 @@
 
 def prime?(num)
   array = (1..num).to_a
-  array.select! {|el| num % el == 0}
-  if array.length > 2
-    false
+  result = array.select {|el| num % el == 0}
+  if result.size > 2
+    puts false
   else
-    true
+    puts true
   end
 end
 
