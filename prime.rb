@@ -5,7 +5,7 @@ def prime?(num)
   result = array.select {|el| num % el == 0}
   if num < 4 && num > 0
     true
-  elsif result.size > 2 || num < 1
+  elsif result.size > 2 || num <= 1
     false
   else
     true
