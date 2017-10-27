@@ -18,7 +18,7 @@ def prime?(num)
   elsif num <=1
     false
   else
-    array = (1..num/2).to_a
+    array = (1..(num/2+1).to_a
     result = array.select {|el| num % el == 0}
     if result.size > 2
       false
