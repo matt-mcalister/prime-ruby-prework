@@ -3,9 +3,11 @@
 def prime?(num)
   array = (1..num).to_a
   result = array.select {|el| num % el == 0}
-  if result.size > 2
-    puts false
+  if num < 4 && num > 0
+    true
+  elsif result.size > 2
+    false
   else
-    puts true
+    true
   end
 end
