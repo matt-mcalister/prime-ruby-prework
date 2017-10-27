@@ -9,6 +9,3 @@ def prime?(num)
     puts true
   end
 end
-
-
-prime?(37)
