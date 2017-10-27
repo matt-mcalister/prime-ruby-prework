@@ -28,4 +28,4 @@ def prime?(num)
   end
 end
 
-puts prime?(37)
+puts prime?(36)
